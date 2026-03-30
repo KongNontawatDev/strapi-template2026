@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_feature_items",
+  "info": {
+    "displayName": "Feature Item",
+    "icon": "circle-check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "iconName": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

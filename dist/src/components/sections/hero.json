@@ -1,0 +1,45 @@
+{
+    "collectionName": "components_sections_heroes",
+    "info": {
+        "displayName": "Hero Section",
+        "icon": "layout",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "backgroundImage": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": [
+                "images",
+                "videos"
+            ]
+        },
+        "badge": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "primaryButton": {
+            "type": "component",
+            "repeatable": false,
+            "component": "shared.link"
+        },
+        "secondaryButton": {
+            "type": "component",
+            "repeatable": false,
+            "component": "shared.link"
+        },
+        "stats": {
+            "type": "component",
+            "repeatable": true,
+            "component": "shared.stat-item"
+        }
+    }
+}

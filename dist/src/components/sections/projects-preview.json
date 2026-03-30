@@ -1,0 +1,21 @@
+{
+    "collectionName": "components_sections_projects_preview",
+    "info": {
+        "displayName": "Projects Preview Section",
+        "icon": "briefcase",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "badge": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text"
+        }
+    }
+}
